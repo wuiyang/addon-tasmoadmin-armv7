@@ -3,7 +3,8 @@ name: TasmoAdmin
 version: dev
 slug: sonweb
 description: Centrally manage all your Sonoff-Tasmota devices
-url: https://github.com/hassio-addons/addon-tasmoadmin
+url: https://github.com/wuiyang/addon-tasmoadmin-armv7
+image: "ghcr.io/wuiyang/tasmoadmin/{arch}"
 webui: "[PROTO:ssl]://[HOST]:[PORT:9541]"
 startup: system
 init: false
